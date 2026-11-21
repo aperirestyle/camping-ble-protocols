@@ -7,7 +7,7 @@ This unofficial project is maintained independently of the equipment manufacture
 | Device | Document | Evidence |
 | --- | --- | --- |
 | Khonsu E3500 lantern | [BLE protocol](protocols/khonsu-e3500.md) | Hardware observations and validated packet examples from one lantern |
-| Alpicool P15 and CarTour WD45 refrigerators | [Upstream references and verification status](research/alpicool.md) | Public research on related devices. Compatibility with these two models remains unverified. |
+| Alpicool P15 and CarTour WD45 refrigerators | [BLE protocol](protocols/alpicool.md) · [Verification and sources](research/alpicool.md) | P15 manufacturer-app packet capture and hardware tests. WD45 hardware tests confirmed status queries, independent left/right setpoints, overall power, cooling mode, and battery protection. |
 
 For the E3500, start by subscribing to notifications and sending the status query. The [packet example](protocols/khonsu-e3500.md#minimal-python-example) constructs that query without opening a Bluetooth connection.
 
